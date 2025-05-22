@@ -1,12 +1,9 @@
 # go-islist
 
-`go-islist` is a high-performance, in-memory **Interval Skip List** implementation written in Go.
-
-It provides efficient insertion, deletion, and querying for **intervals that overlap a given range**, with logarithmic time complexity under most conditions.
+`go-islist` is a high-performance, in-memory contiguous Interval Skip List Go package. It provides efficient insertion, deletion, and querying for intervals that overlap a given range, with logarithmic time complexity under most conditions.
 
 > Skip lists are probabilistic data structures that offer similar performance characteristics to balanced trees but are simpler to implement and reason about.
 
----
 
 ## Features
 
